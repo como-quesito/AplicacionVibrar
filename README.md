@@ -1,6 +1,6 @@
 # Aplicacion usando servicios de systema
 En esta aplicacion aprenderemos a usar los servicios de sistema, para ello deberas de estudiar la clase
-"http://developer.android.com/reference/android/content/Context.html#getSystemService(java.lang.Class<T>)"
+[Chécala aquí](http://developer.android.com/reference/android/content/Context.html).
 
 Para poder usar esta clase vamos a utilizar sobre nuestra **Activity** el método **getSystemSrvice(getApplicationContext().TU_SERVICIO)**, donde en este caso el nombre de servico es el nombre de servic icio que debes acceder, que en la clase abstracta **Service** vienen como constantes diferentes. 
 Una vez que lo hagas verifica el tipo de retorno que tiene y haz el casting respectivo, como ejemplo esta el servicio  para vibrar **VIBRATOR_SERVICE**, a continuación se muestra el código. dentro de un evento de boton flotante.
