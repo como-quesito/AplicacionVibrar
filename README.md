@@ -1,5 +1,5 @@
 # Aplicacion usando servicios de systema
-En esta aplicacion aprenderemos a usar los servicios de sistema, para ello deberas de obvservar la clase
+En esta aplicacion aprenderemos a usar los servicios de sistema, para ello deberas de estudiar la clase
 "http://developer.android.com/reference/android/content/Context.html#getSystemService(java.lang.Class<T>)"
 
 Para poder usar esta clase vamos a utilizar sobre nuestra **Activity** el método **getSystemSrvice(getApplicationContext().TU_SERVICIO)**, donde en este caso el nombre de servico es el nombre de servic icio que debes acceder, que en la clase abstracta **Service** vienen como constantes diferentes. 
